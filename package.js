@@ -51,6 +51,8 @@ Package.on_use(function(api) {
   api.add_files('entry.coffee', 'server');
 
   api.use('iron-router', ['client', 'server']);
+  api.use('yubikey', 'server');
+  api.use('google-authenticator','server');
   api.add_files('router.coffee', ['client', 'server']);
   api.add_files('server/accountsUrl.coffee', 'server');
 });
