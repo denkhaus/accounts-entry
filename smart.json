@@ -1,10 +1,10 @@
 {
-  "name": "accounts-entry",
-  "description": "A meteorite package that relies on Iron Router and gives you sign page login styles.",
-  "homepage": "https://github.com/BeDifferential/accounts-entry",
-  "author": "Differential (http://differential.io)",
+  "name": "accounts-entry-otp",
+  "description": "A meteorite package that relies on Iron Router and gives you sign page login styles. The OTP enhancement makes you login with google-authenticator or yubikey too.",
+  "homepage": "https://github.com/denkhaus/accounts-entry-otp",
+  "author": "Differential (http://differential.io), OTP Part -> denkhaus",
   "version": "0.4.4",
-  "git": "https://github.com/BeDifferential/accounts-entry.git",
+  "git": "https://github.com/denkhaus/accounts-entry-otp.git",
   "packages": {
     "iron-router": "0.6.1"
   }
