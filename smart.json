@@ -2,8 +2,8 @@
   "name": "accounts-entry-otp",
   "description": "A meteorite package that relies on Iron Router and gives you sign page login styles. The OTP enhancement makes you login with google-authenticator or yubikey too.",
   "homepage": "https://github.com/denkhaus/accounts-entry-otp",
-  "author": "Differential , denkhaus",
-  "version": "0.0.1",
+  "author": "Differential, denkhaus",
+  "version": "0.0.2",
   "git": "https://github.com/denkhaus/accounts-entry-otp.git",
   "packages": {
     "iron-router": "0.6.1",
