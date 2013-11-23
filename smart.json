@@ -6,6 +6,8 @@
   "version": "0.4.4",
   "git": "https://github.com/denkhaus/accounts-entry-otp.git",
   "packages": {
-    "iron-router": "0.6.1"
+    "iron-router": "0.6.1",
+    "yubikey": "0.0.1",
+    "google-authenticator": "0.0.1"  
   }
 }

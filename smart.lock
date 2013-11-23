@@ -2,12 +2,12 @@
   "meteor": {},
   "dependencies": {
     "basePackages": {
-      "accounts-entry": {
+      "accounts-entry-otp": {
         "path": "."
       }
     },
     "packages": {
-      "accounts-entry": {
+      "accounts-entry-otp": {
         "path": "."
       },
       "iron-router": {
