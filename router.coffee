@@ -17,6 +17,11 @@ Router.map ->
     before: ->
       Session.set('entryError', undefined)
 
+  @route "entryPassOTP",
+    path: "/pass-otp"
+    before: ->
+      Session.set('entryError', undefined)
+
   @route 'entrySignOut',
     path: '/sign-out'
     before: ->

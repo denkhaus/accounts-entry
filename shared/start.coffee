@@ -3,6 +3,13 @@ AccountsEntry =
     wrapLinks: true
     homeRoute: 'home'
     dashboardRoute: 'dashboard'
+    otp:
+        enabled: false
+        yubikey:
+            clientId: ''
+            clientSecret:''
+        googleAuth:
+            token:''
 
   config: (appConfig) ->
     @settings = _.extend(@settings, appConfig)

@@ -29,5 +29,8 @@ Template.entrySignIn.events
       if error
         Session.set('entryError', error.reason)
       else
-        Router.go AccountsEntry.settings.dashboardRoute
+        if AccountsEntry.settings.otp.enabled
+            Router.go 'entryPassOTP'
+        else
+            Router.go AccountsEntry.settings.dashboardRoute
     )
